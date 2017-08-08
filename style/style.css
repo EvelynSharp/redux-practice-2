@@ -1,6 +1,23 @@
+body {
+  margin: 0;
+}
 td, th {
   vertical-align: middle !important;
   text-align: center !important;
+}
+.headbannder{
+  min-height: 200px;
+  background: url('../src/banner.jpg');
+
+}
+.headbannder h1 {
+  text-align: center;
+  padding-top: 45px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(25, 25, 25);
+  font-family: 'Fredoka One', serif;
+  font-size: 50px;
 }
 
 .input-group {
